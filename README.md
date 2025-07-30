@@ -16,14 +16,13 @@ This is my personal developer portfolio, built to showcase my work, projects, ex
 ## 📁 Project Structure
 
 ```
-/
-├── components/      # Reusable UI components
-├── pages/           # Page routes
-├── public/          # Static assets
-├── data/            # JSON files with data
-├── utils/           # Utility functions
-├── next.config.js   # Next.js config
-└── ...
+──src/
+    ├── components/      # Reusable UI components
+    ├── pages/           # Page routes
+    ├── data/            # JSON files with data
+    ├── utils/           # Utility functions
+── public/          # Static assets
+...
 ```
 ---
 ## 📦 Installation
