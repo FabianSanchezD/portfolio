@@ -18,10 +18,10 @@ This is my personal developer portfolio, built to showcase my work, projects, ex
 ```
 ──src/
     ├── components/      # Reusable UI components
-    ├── pages/           # Page routes
+    ├── app/             # App router
     ├── data/            # JSON files with data
     ├── utils/           # Utility functions
-── public/          # Static assets
+──public/          # Static assets
 ...
 ```
 ---
