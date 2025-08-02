@@ -1,16 +1,20 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import AboutSection from '@/components/AboutSection';
+import TechStackSection from "@/components/TechStackSection";
 import ProjectSection from "@/components/ProjectSection";
 import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-10 pb-20 gap-16">
-      <Navbar/>
-      <AboutSection/>
-      <ProjectSection/>
-      <ContactSection/>
+    <div className="font-sans min-h-screen p-4 md:p-8 lg:p-10 pb-20">
+      <div className="flex flex-col items-center gap-4 md:gap-8 lg:gap-12">
+        <Navbar/>
+        <AboutSection/>
+        <TechStackSection/>
+        <ProjectSection/>
+        <ContactSection/>
+      </div>
     </div>
   );
 }
