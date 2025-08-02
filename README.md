@@ -19,7 +19,6 @@ This is my personal developer portfolio, built to showcase my work, projects, ex
 ──src/
     ├── components/      # Reusable UI components
     ├── app/             # App router
-    ├── data/            # JSON files with data
     ├── utils/           # Utility functions
 ──public/          # Static assets
 ...
