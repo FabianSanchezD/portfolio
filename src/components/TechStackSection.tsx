@@ -1,96 +1,116 @@
-import Image from "next/image"
+import * as motion from "motion/react-client"
 
 const TechStackSection = () => {
+    const imageStyle = {
+    width: 50,
+    height: 50,
+    borderRadius: 0,
+    cursor: "pointer",
+    objectFit: "cover" as const,
+  }
+
   return (
-    <div className="flex flex-col gap-3 text-3xl font-semibold items-center text-center ">
+    <div className="flex flex-col gap-3 text-3xl font-semibold items-center text-center py-6">
         <h1 className="text-5xl font-bold">Tech Stack</h1>
         <h2>Frontend</h2>
         <div className="flex flex-rows gap-3">
-            <Image
+          <motion.img
             src="/logos/typescript_logo.png"
             alt="Logo of TypeScript"
-            width={50}
-            height={50}
-            />
-            <Image
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            style={imageStyle}
+          />
+          <motion.img
             src="/logos/javascript_logo.png"
             alt="Logo of Javascript"
-            width={50}
-            height={50}
-            />
-            <Image
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            style={imageStyle}
+          />
+          <motion.img
             src="/logos/nextjs_logo.png"
             alt="Logo of Next.js"
-            width={50}
-            height={50}
-            />
-            <Image
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            style={imageStyle}
+          />
+          <motion.img
             src="/logos/react_logo.png"
             alt="Logo of React"
-            width={50}
-            height={50}
-            />
-            <Image
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            style={imageStyle}
+          />
+          <motion.img
             src="/logos/tailwindcss_logo.png"
             alt="Logo of TailwindCSS"
-            width={50}
-            height={50}
-            className="object-contain"
-            />
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            style={imageStyle}
+          />
         </div>
         <h2>Backend</h2>
         <div className="flex flex-rows gap-3">
-            <Image
+          <motion.img
             src="/logos/nodejs_logo.webp"
             alt="Logo of Node.js"
-            width={50}
-            height={50}
-            />
-            <Image
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            style={imageStyle}
+          />
+          <motion.img
             src="/logos/expressjs_logo.png"
             alt="Logo of Express"
-            width={50}
-            height={50}
-            />
-            <Image
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            style={imageStyle}
+          />
+          <motion.img
             src="/logos/python_logo.webp"
             alt="Logo of Python"
-            width={50}
-            height={50}
-            />
-            <Image
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            style={imageStyle}
+          />
+          <motion.img
             src="/logos/fastapi_logo.png"
             alt="Logo of FastAPI"
-            width={50}
-            height={50}
-            />
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            style={imageStyle}
+          />
         </div>
         <h2>Tools & DBs</h2>
         <div className="flex flex-rows gap-3">
-            <Image
+          <motion.img
             src="/logos/git_logo.png"
             alt="Logo of Git"
-            width={50}
-            height={50}
-            />
-            <Image
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            style={imageStyle}
+          />
+          <motion.img
             src="/logos/github_logo.svg"
             alt="Logo of Github"
-            width={50}
-            height={50}
-            />
-            <Image
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            style={imageStyle}
+          />
+          <motion.img
             src="/logos/supabase_logo.png"
             alt="Logo of Supabase (also backend)"
-            width={50}
-            height={50}
-            />
-            <Image
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            style={imageStyle}
+          />
+          <motion.img
             src="/logos/vercel_logo.svg"
             alt="Logo of Vercel"
-            width={50}
-            height={50}
-            />
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            style={imageStyle}
+          />
         </div>
     </div>
   )
