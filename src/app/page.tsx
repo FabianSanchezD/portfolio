@@ -8,7 +8,7 @@ import ContactSection from "@/components/ContactSection";
 export default function Home() {
   return (
     <div className="font-sans min-h-screen p-4 md:p-8 lg:p-10 pb-20">
-      <div className="flex flex-col items-center gap-4 md:gap-8 lg:gap-12">
+      <div className="flex flex-col items-center gap-7">
         <Navbar/>
         <AboutSection/>
         <TechStackSection/>
