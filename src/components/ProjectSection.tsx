@@ -12,7 +12,7 @@ let projects = [
 
 const ProjectSection = () => {
   return (
-    <div className="flex flex-col gap-6 items-center">
+    <div id="projects" className="flex flex-col gap-6 items-center">
       <h1 className="text-5xl font-bold text-center">Projects</h1>
       {projects.map((project, index) => (
         <div key={index} className="flex flex-col md:flex-row gap-6 shadow-lg rounded-2xl bg-gray-800 p-6 max-w-4xl w-full">

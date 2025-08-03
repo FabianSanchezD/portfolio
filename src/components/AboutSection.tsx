@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const AboutSection = () => {
   return (
-    <div className="flex lg:flex-row gap-5 flex-col items-center">
+    <div id="about" className="flex lg:flex-row gap-5 flex-col items-center">
         <div className="font-sans text-center max-w-2xl">
             <h1 className="text-6xl font-bold pb-1">Hello there!</h1>
             <h1 className="text-6xl font-bold">I'm Fabián Sánchez.</h1>
