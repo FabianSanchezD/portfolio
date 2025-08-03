@@ -9,6 +9,14 @@ const TechStackSection = () => {
     objectFit: "cover" as const,
   }
 
+    const imageStyleTailwind = {
+    width: 50,
+    height: 50,
+    borderRadius: 0,
+    cursor: "pointer",
+    objectFit: "contain" as const,
+  }
+
   return (
     <div className="flex flex-col gap-3 text-3xl font-semibold items-center text-center py-6">
         <h1 className="text-5xl font-bold">Tech Stack</h1>
@@ -47,7 +55,7 @@ const TechStackSection = () => {
             alt="Logo of TailwindCSS"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.8 }}
-            style={imageStyle}
+            style={imageStyleTailwind}
           />
         </div>
         <h2>Backend</h2>
