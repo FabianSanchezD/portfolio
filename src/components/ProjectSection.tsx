@@ -1,6 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 
-let projects = [
+const projects = [
   {"title": "Drop-In",
    "description": "Drop in on study sessions or casual meetups for students. Create and join impromptu reunions around campus.",
    "github": "https://github.com/FabianSanchezD/dropin",
@@ -36,19 +37,18 @@ const ProjectSection = () => {
               ))}
             </div>
             <div className="flex gap-4 mt-auto">
-              <a 
+              <Link 
                 href={project.github} 
-
                 className="bg-gray-900 hover:bg-gray-700 text-white px-4 py-2 rounded-lg transition-colors"
               >
                 GitHub
-              </a>
-              <a 
+              </Link>
+              <Link 
                 href={project.website} 
                 className="bg-gray-900 hover:bg-gray-700 text-white px-4 py-2 rounded-lg transition-colors"
               >
                 Demo
-              </a>
+              </Link>
             </div>
           </div>
         </div>

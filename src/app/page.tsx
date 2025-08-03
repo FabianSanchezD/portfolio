@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import AboutSection from '@/components/AboutSection';
 import TechStackSection from "@/components/TechStackSection";

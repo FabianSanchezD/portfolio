@@ -1,4 +1,5 @@
 import * as motion from "motion/react-client"
+import Link from "next/link"
 
 const ContactSection = () => {
   const socialStyle = {
@@ -14,7 +15,7 @@ const ContactSection = () => {
       <h1 className="text-5xl font-bold text-center pt-4">Contact</h1>
       <p className="text-xl text-blue-100"><a href="mailto:fabiansanchezd.com">Click here to send me an email.</a></p>
       <div className="flex flex-row gap-2">
-        <a href="https://github.com/FabianSanchezD">
+        <Link href="https://github.com/FabianSanchezD">
           <motion.img
             src="/logos/github_logo.svg"
             alt="My GitHub profile"
@@ -22,8 +23,8 @@ const ContactSection = () => {
             whileTap={{ scale: 0.8 }}
             style={socialStyle}
           />
-        </a>
-        <a href="https://www.linkedin.com/in/fabian-sanchez-d/">
+        </Link>
+        <Link href="https://www.linkedin.com/in/fabian-sanchez-d/">
           <motion.img
             src="/logos/linkedin_logo.png"
             alt="My LinkedIn profile"
@@ -31,8 +32,8 @@ const ContactSection = () => {
             whileTap={{ scale: 0.8 }}
             style={socialStyle}
           />
-        </a>
-        <a href="https://x.com/fabiansanchd">
+        </Link>
+        <Link href="https://x.com/fabiansanchd">
           <motion.img
             src="/logos/x_logo.svg"
             alt="My X profile"
@@ -40,7 +41,7 @@ const ContactSection = () => {
             whileTap={{ scale: 0.8 }}
             style={socialStyle}
           />
-        </a>
+        </Link>
       </div>
     </div>
   )
