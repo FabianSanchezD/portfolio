@@ -13,7 +13,7 @@ const ContactSection = () => {
   return (
     <div id="contact" className="flex flex-col items-center gap-4">
       <h1 className="text-5xl font-bold text-center pt-4">Contact</h1>
-      <p className="text-xl text-blue-100"><a href="mailto:fabiansanchezd.com">Click here to send me an email.</a></p>
+      <p className="text-xl text-blue-100"><a href="mailto:fabiansanchezd@outlook.com">Click here to send me an email.</a></p>
       <div className="flex flex-row gap-2">
         <Link href="https://github.com/FabianSanchezD">
           <motion.img
@@ -37,6 +37,15 @@ const ContactSection = () => {
           <motion.img
             src="/logos/x_logo.svg"
             alt="My X profile"
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.8 }}
+            style={socialStyle}
+          />
+        </Link>
+        <Link href="https://t.me/fabiansanchezd">
+          <motion.img
+            src="/logos/telegram_logo.png"
+            alt="My Telegram profile"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.8 }}
             style={socialStyle}
