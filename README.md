@@ -44,5 +44,5 @@ Then open `http://localhost:3000` in your browser.
 If you’d like to connect, feel free to reach out:
 
 * 📧 Email: [fabiansanchezd@outlook.com](mailto:fabiansanchezd@outlook.com)
-* 🌐 Website: [soon]()
+* 🌐 Website: [click here!](portfolio-fabiansanchezd.vercel.app/)
 * 💼 LinkedIn: [https://linkedin.com/in/fabiansanchezd](https://linkedin.com/in/fabiansanchezd)
