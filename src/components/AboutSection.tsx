@@ -6,9 +6,9 @@ const AboutSection = () => {
         <div className="font-sans text-center max-w-2xl">
             <h1 className="text-6xl font-bold pb-1">Hello there!</h1>
             <h1 className="text-6xl font-bold">I&apos;m Fabián Sánchez.</h1>
-            <h2 className="text-3xl pt-1 pb-2">Full-Stack Developer</h2>
-            <p className="text-xl pb-1">I am a Computer Science (Ing. Sistemas) student at TEC, Costa Rica! I really enjoy programming and I have created projects with multiple technologies and stacks.</p>
-            <p className="text-xl pb-2.5">Also, I am interested in multiple fields such as front-end and back-end development, blockchain and AI. One of my core skills is communication.</p>
+            <h2 className="text-3xl pt-1 pb-2">Software Developer</h2>
+            <p className="text-xl pb-1">I am a Computer Science (Ing. Sistemas) student at TEC, Costa Rica! I really enjoy programming, open-source contributing and I have created projects with multiple technologies and stacks.</p>
+            <p className="text-xl pb-2.5">Also, I am interested in multiple fields such as web3 (blockchain, smart contracts, etc.) and AI. One of my core skills is communication.</p>
             <p className="text-xl italic text-amber-50">We suffer more in imagination than in reality. - Seneca</p>
 
         </div>
