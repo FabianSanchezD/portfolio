@@ -9,7 +9,7 @@ const education = [
         "date2": "Present"
     },
     {
-        "school": "Científico Cartago",
+        "school": "Colegio Científico Cartago",
         "degree": "High School",
         "location": "Costa Rica",
         "date1": "2023",
@@ -19,30 +19,21 @@ const education = [
 
 const EducationSection = () => {
   return (
-    <div id="education" className="flex flex-col gap-6">
+    <div id="education" className="flex flex-col gap-6 w-full md:items-center">
       <h1 className="text-5xl font-bold text-center">Education</h1>
-      <div className="relative">
-        {/* Vertical timeline line */}
-        <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-white rounded-full transform -translate-x-1/2"></div>
         
         {education.map((education, index) => {
           return (
-            <div key={index} className="relative flex items-start mb-8 last:mb-0">
-              <div className="w-1/2 pr-8 flex flex-col items-end">
-                <p className="text-xl text-white">{education.date2}</p>
-                <p className="text-xl text-white">{education.date1}</p>
-              </div>
-
-              <div className="w-1/2 pl-8 flex flex-col items-start">
-                <h2 className="text-3xl font-bold text-white mb-1">{education.school}</h2>
-                <p className="text-xl text-white mb-1">{education.degree}</p>
-                <p className="text-xl text-white">{education.location}</p>
-              </div>
-            </div>
+            <div key={index} className="flex flex-col md:flex-row gap-6 md:w-1/2 w-full justify-center items-center">
+          <div className="flex flex-col gap-1.5 justify-center items-center">
+            <h2 className="text-3xl font-bold text-gray-400 text-center">{education.school}  ({education.date1} - {education.date2})</h2>
+            <p className="text-gray-300 leading-relaxed">{education.degree}</p>
+            <p className="text-gray-300 leading-relaxed">{education.location}</p>
+          </div>
+        </div>
           )
         })}
       </div>
-    </div>
   )
 }
 

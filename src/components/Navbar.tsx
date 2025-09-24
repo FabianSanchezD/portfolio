@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from "next/link";
-import { BrowserView, MobileView } from 'react-device-detect';
 
 const Navbar = () => {
   return (
