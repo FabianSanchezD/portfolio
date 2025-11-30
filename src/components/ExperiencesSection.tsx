@@ -4,7 +4,7 @@ import Image from 'next/image'
 const experiences = [
     {
         "title": "Aleph Hackathon 2025",
-        "description": "Winners of 2nd Place in the Aleph Hackathon (LATAM's biggest hackathon) in the Filecoin Track. We built a DApp that added transparency to government tenders and bidding. All processes were posible with Ethereum Smart Contracts and Filecoin.",
+        "description": "Winners of 2nd Place in the Aleph Hackathon (LATAM's biggest hackathon) in the Filecoin Track. We built a DApp that added transparency to government tenders and bidding called Althara Pacta. All processes were posible with Ethereum Smart Contracts and Filecoin.",
         "date": "August 2025",
         "link": "https://github.com/Althara-Labs/althara-dapp",
         "image": "/experiences/aleph-winners.jpeg",
