@@ -7,7 +7,7 @@ const projects = [
    "github": "https://github.com/FabianSanchezD/dropin",
    "techstack":["Vite + React", "Supabase", "Tailwind CSS"],
    "website": "https://dropin-alpha.vercel.app/",
-   "imagesrc": "/projects/dropin.png"
+   "imagesrc": "/projects/dropin.jpeg"
   },
   {
     "title" : "Kleo Protocol",

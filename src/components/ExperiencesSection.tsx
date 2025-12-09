@@ -14,7 +14,7 @@ const experiences = [
       "description": "Participated in HackMeridian and Meridian 2025, hosted by Stellar in Rio de Janeiro, Brazil. We built a DApp and infrastructure for DApps to facilitate the identity process for web3 users on Stellar called Veridion. I networked with other builders from around the world.",
       "date": "September 2025",
       "link": "https://www.linkedin.com/posts/fabian-sanchez-d_last-week-i-was-honored-to-attend-meridian-activity-7376079520782577664-x7IA?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEOBTqgBi42tA73lkUp72sxwJdY3u3CmxhU",
-      "image":"/experiences/meridian2025.avif"
+      "image":"/experiences/meridian2025.png"
     },
     {
       "title" : "Sub0 Symbiosis Event + Hackathon 2025",
