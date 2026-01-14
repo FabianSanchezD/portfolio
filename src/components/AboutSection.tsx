@@ -14,7 +14,7 @@ const AboutSection = () => {
         </div>
         <div>
             <Image
-            src="/myself.jpg"
+            src="/myself.webp"
             alt="Image of Fabián Sánchez"
             className="rounded-xl"
             width={370}
